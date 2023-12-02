@@ -1,0 +1,17 @@
+[
+  {
+    "Key": "",
+    "Dir": "."
+  },
+  {
+    "Key": "ec2-instance",
+    "Source": "./modules/aws-ec2-instance",
+    "Dir": "modules/aws-ec2-instance"
+  },
+  {
+    "Key": "hello",
+    "Source": "registry.terraform.io/joatmon08/hello/random",
+    "Version": "6.0.0",
+    "Dir": ".terraform/modules/hello"
+  }
+]
